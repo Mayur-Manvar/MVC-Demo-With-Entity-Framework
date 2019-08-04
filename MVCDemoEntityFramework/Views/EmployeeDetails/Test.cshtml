@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Test";
+}
+
+<h2>Test</h2>
+
+@Html.TextBox("FirstName","Mayur",new { style = "background-color:Red; color:White; font-weight:bold", title = "Please enter your first name" })
+@Html.DropDownList("Gender",new List<SelectListItem>() {
+    new SelectListItem() { Text="Male",Value="Male",Selected = true},
+    new SelectListItem() { Text="Female",Value="Female",},
+    new SelectListItem() { Text="Other",Value="Other"},
+})
+@Html.RadioButton("Gender", new List<SelectListItem>() {
+    new SelectListItem() { Text="Male",Value="Male",Selected = true},
+    new SelectListItem() { Text="Female",Value="Female",},
+    new SelectListItem() { Text="Other",Value="Other"},
+})

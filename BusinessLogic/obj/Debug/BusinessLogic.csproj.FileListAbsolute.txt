@@ -1,0 +1,4 @@
+E:\MVC Work\MVCDemo\BusinessLogic\bin\Debug\BusinessLogic.dll
+E:\MVC Work\MVCDemo\BusinessLogic\bin\Debug\BusinessLogic.pdb
+E:\MVC Work\MVCDemo\BusinessLogic\obj\Debug\BusinessLogic.dll
+E:\MVC Work\MVCDemo\BusinessLogic\obj\Debug\BusinessLogic.pdb
